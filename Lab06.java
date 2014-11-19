@@ -29,7 +29,18 @@ public class lab06 extends Applet
 		
 		// Draw Random Squares
 
-
+		for(int x = 1; x <=100 ; x++)
+		{
+			int c1 = (int)(Math.random() *(255));
+			int c2 = (int)(Math.random() *(255));
+			int c3 = (int)(Math.random() *(255));
+			int x1 = (int)(Math.random() *(340))+400;
+			int y1 = (int)(Math.random() *(240))+10;
+			g.setColor(new Color(c1, c2, c3));
+			//Squares are 50x50 pixels, and squares are given random starting points
+			g.fillRect(x1, y1, 50, 50);
+			
+		}
 
 
 		
