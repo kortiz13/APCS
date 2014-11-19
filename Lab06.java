@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.applet.*;
 import java.util.*; 
-																
+// Program that creates a groups of randadom graphics and colors located in specific grids																
 public class lab06 extends Applet
 {
 	public void paint(Graphics g) 	
