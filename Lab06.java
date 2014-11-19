@@ -14,10 +14,14 @@ public class lab06 extends Applet
 		// Draw Random Lines
 		for (int k = 1; k <= 100; k++)
 		{
+			int c1 = (int)(Math.random() *(255));
+			int c2 = (int)(Math.random() *(255));
+			int c3 = (int)(Math.random() *(255));
 			int x1 = (int)(Math.random() *(400))+15;
 			int y1 = (int)(Math.random() *(300))+10;
 			int x2 = (int)(Math.random() *(400))+20;
 			int y2 = (int)(Math.random() *(300))+15;
+			g.setColor(new Color(c1,c2,c3));
 			g.drawLine(x1,y1,x2,y2);
 		}
 
