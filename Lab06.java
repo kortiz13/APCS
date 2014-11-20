@@ -1,8 +1,8 @@
 import java.awt.*;
 import java.applet.*;
 import java.util.*; 
-// Program that creates a groups of randadom graphics and colors located in specific grids																
-public class lab06 extends Applet
+// Program that creates a groups of random graphics and colors located in specific grids																
+public class Lab06 extends Applet
 {
 	public void paint(Graphics g) 	
 	{
@@ -41,18 +41,20 @@ public class lab06 extends Applet
 			g.fillRect(x1, y1, 50, 50);
 			
 		}
-
-
 		
 		// Draw Random Circles
+		for(int x = 1; x <= 100; x++)
+		{
+			int c1 = (int)(Math.random() *(255));
+			int c2 = (int)(Math.random() *(255));
+			int c3 = (int)(Math.random() *(255));
+			int x1 = (int)(Math.random() *(340))+10;
+			int y1 = (int)(Math.random() *(240))+300;
+			g.setColor(new Color(c1,c2,c3));
+			g.drawOval(x1, y1, 50, 50);
+		}
 
-
-
-
-		
 		// Draw 3-D Box
 	
-	
 	}
-		
 }
