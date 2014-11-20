@@ -48,9 +48,9 @@ public class Lab06 extends Applet
 			int c1 = (int)(Math.random() *(255));
 			int c2 = (int)(Math.random() *(255));
 			int c3 = (int)(Math.random() *(255));
-			int sz = (int)(Math.random() *(100));
-			int x1 = (int)(Math.random() *(400))+10;
-			int y1 = (int)(Math.random() *(240))+300;
+			int x1 = (int)(Math.random() *(300)+5);
+			int y1 = (int)(Math.random() *(200)+300);
+			int sz = (int)(Math.random() *120)-15;
 			g.setColor(new Color(c1,c2,c3));
 			g.drawOval(x1, y1, sz, sz);
 		}
