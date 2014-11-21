@@ -2,7 +2,7 @@ import java.awt.*;
 import java.applet.*;
 import java.util.*; 
 // Program that creates a groups of random graphics and colors located in specific grids																
-public class lab06 extends Applet
+public class Lab06 extends Applet
 {
 	public void paint(Graphics g) 	
 	{
@@ -46,9 +46,9 @@ public class lab06 extends Applet
 			int c1 = (int)(Math.random() *(255));
 			int c2 = (int)(Math.random() *(255));
 			int c3 = (int)(Math.random() *(255));
-			int x1 = (int)(Math.random() *(200)+(15*2));
-			int y1 = (int)(Math.random() *(200)+310);
-			int sz = (int)(Math.random() *200)-30;
+			int x1 = (int)(Math.random() *(200)+9);
+			int y1 = (int)(Math.random() *(200)+250);
+			int sz = (int)(Math.random() * 200);
 			g.setColor(new Color(c1,c2,c3));
 			g.drawOval(x1, y1, sz, sz);
 		}
