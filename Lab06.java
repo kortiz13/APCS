@@ -7,7 +7,7 @@ public class Lab06 extends Applet
 	public void paint(Graphics g) 	
 	{
 		// Draw Grid
-		g.drawRect(10,10,780,580);
+		g.drawRect(11,10,780,580);
 		g.drawLine(400,10,400,590);
 		g.drawLine(10,300,790,300);
 	
